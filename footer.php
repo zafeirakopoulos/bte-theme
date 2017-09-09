@@ -3,10 +3,10 @@
     <footer class="bte-footer">
         <div class="row">
 
-        	<div class="col-sm-2 col-sm-offset-4">
+        	<div class="col-sm-4 col-sm-offset-2">
                 <img height="100px" src="<?php echo get_bloginfo( 'template_directory' );?>/gtu-white.png">
             </div>
-    		<div class="col-sm-2">
+    		<div class="col-sm-4">
                 <p>
                     Gebze Technical University <br>
                     Computer Engineering Building <br>
@@ -21,7 +21,6 @@
 
 </footer>
 
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" rel="stylesheet">
 <?php wp_footer(); ?>
 </body>
 </html>
