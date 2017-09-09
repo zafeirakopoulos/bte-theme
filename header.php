@@ -25,7 +25,8 @@
 <body>
 
 
- 		<div class="bte-masthead container col-sm-12">
+ 		<div class="bte-masthead">
+			<div class="container col-sm-12">
 			<br>
 			<h1 class="bte-title"><?php echo get_bloginfo( 'name' ); ?></h1>
 			<nav class="navbar navbar-default">
@@ -54,5 +55,6 @@
 			  </div><!--/.container-fluid -->
 			</nav>
 		</div>
+	</div>
 
 	<div class="container">
