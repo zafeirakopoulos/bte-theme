@@ -38,7 +38,7 @@
 			        <span class="icon-bar"></span>
 			      </button>
 				  <a class="navbar-brand" href="<?php echo get_permalink( get_page_by_path('home'))?>">
-				      <img height="50px" src="<?php echo get_bloginfo( 'template_directory' );?>/favicon.png">BTE
+				      <img height="50px" src="<?php echo get_bloginfo( 'template_directory' );?>/favicon.png">
 				  </a>
 			    </div>
 			    <div id="navbar" class="navbar-collapse collapse">
