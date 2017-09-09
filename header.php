@@ -34,16 +34,16 @@
 			           <div class="container-fluid">
 							 <div class="navbar-header">
 	   						   <a class="navbar-brand" href="<?php echo get_permalink( get_page_by_path('home'))?>">
-	   						     <img height="100px" src="<?php echo get_bloginfo( 'template_directory' );?>/favicon.png">
+	   						     <img height="50px" src="<?php echo get_bloginfo( 'template_directory' );?>/favicon.png">
 	   						   </a>
 	   						 </div>
 				            <div id="navbar" class="navbar-collapse collapse">
-				            	<ul class="nav navbar-nav">
+				            	<ul class="navbar navbar-nav">
 				                	<li><a href="<?php echo get_permalink( get_page_by_path('faculty'))?>">People</a></li>
 								 	<li><a href="<?php echo get_permalink( get_page_by_path('research'))?>">Research</a></li>
 								 	<li><a href="<?php echo get_permalink( get_page_by_path('projects'))?>">Projects</a></li>
 				               	</ul>
-				              	<ul class="nav navbar-nav navbar-right">
+				              	<ul class="navbar navbar-nav navbar-right">
 									<li><a href="<?php echo get_permalink( get_page_by_path('contact'))?>">Contact</a></li>
 				               	</ul>
 				       		</div><!--/.nav-collapse -->
