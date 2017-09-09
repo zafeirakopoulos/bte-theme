@@ -37,7 +37,7 @@
 			             <div id="navbar" class="navbar-collapse collapse">
 			               <ul class="nav navbar-nav">
 			                 <li><a href="#">Home</a></li>
-			                 <li><a href="<?php get_permalink( get_page_by_path('faculty'))?>">Faculty</a></li>
+			                 <li><a href="<?php echo get_permalink( get_page_by_path('faculty'))?>">Faculty</a></li>
 			                 <li><a href="research">Research</a></li>
 			               </ul>
 			               <ul class="nav navbar-nav navbar-right">
