@@ -3,10 +3,10 @@
     <footer class="bte-footer">
         <div class="row">
 
-        	<div class="col-sm-4 col-sm-offset-2">
+        	<div class="col-sm-3 col-sm-offset-2">
                 <img height="100px" src="<?php echo get_bloginfo( 'template_directory' );?>/gtu-white.png">
             </div>
-    		<div class="col-sm-4">
+    		<div class="col-sm-3">
                 <p>
                     Gebze Technical University <br>
                     Computer Engineering Building <br>
