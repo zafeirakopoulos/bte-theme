@@ -21,7 +21,7 @@
 
 </footer>
 
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" rel="stylesheet">
 <?php wp_footer(); ?>
 </body>
 </html>
