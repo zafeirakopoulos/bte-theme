@@ -32,11 +32,7 @@
 					<!-- Static navbar -->
 			         <nav class="navbar navbar-default">
 			           <div class="container-fluid">
-						   <div class="navbar-header">
-							  <a class="navbar-brand" href="<?php echo get_permalink( get_page_by_path('home'))?>">
-								<img height="100px" src="<?php echo get_bloginfo( 'template_directory' );?>/favicon.png">
-							  </a>
-							</div>
+						
 				            <div id="navbar" class="navbar-collapse collapse">
 				            	<ul class="nav navbar-nav">
 				                	<li><a href="<?php echo get_permalink( get_page_by_path('faculty'))?>">People</a></li>
