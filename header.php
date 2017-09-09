@@ -28,13 +28,15 @@
 			<div class="col-sm-3">
 				<img height="100px" src="<?php echo get_bloginfo( 'template_directory' );?>/favicon.png">
 			</div>
-			<div class="bte-header col-sm-9">
+			<div class="col-sm-9">
+				<div class="bte-header">
 					<h1 class="bte-title"><?php echo get_bloginfo( 'name' ); ?></h1>
-				<div class="container">
-					<nav class="bte-nav">
-						<a class="blog-nav-item active" href="#">Home</a>
-						<?php wp_list_pages( '&title_li=' ); ?>
-					</nav>
+					<div class="container">
+						<nav class="bte-nav">
+							<a class="blog-nav-item active" href="#">Home</a>
+							<?php wp_list_pages( '&title_li=' ); ?>
+						</nav>
+					</div>
 				</div>
 			</div>
 		</div>
