@@ -36,12 +36,13 @@
 			           <div class="container-fluid">
 			             <div id="navbar" class="navbar-collapse collapse">
 			               <ul class="nav navbar-nav">
-			                 <li><a href="#">Home</a></li>
-			                 <li><a href="<?php echo get_permalink( get_page_by_path('faculty'))?>">Faculty</a></li>
-			                 <li><a href="research">Research</a></li>
+							  <li><a href="<?php echo get_permalink( get_page_by_path('home'))?>">Home</a></li>
+			                 <li><a href="<?php echo get_permalink( get_page_by_path('faculty'))?>">People</a></li>
+							 <li><a href="<?php echo get_permalink( get_page_by_path('research'))?>">Research</a></li>
+							 <li><a href="<?php echo get_permalink( get_page_by_path('projects'))?>">Projects</a></li>
 			               </ul>
 			               <ul class="nav navbar-nav navbar-right">
-			               		<li><a href="contact">Contact</a></li>
+							   <li><a href="<?php echo get_permalink( get_page_by_path('contact'))?>">Contact</a></li>
 			               </ul>
 			             </div><!--/.nav-collapse -->
 			           </div><!--/.container-fluid -->
