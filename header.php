@@ -26,7 +26,12 @@
 
  		<div class="bte-masthead">
 			<div class="bte-header">
-				<h1 class="bte-title"><?php echo get_bloginfo( 'name' ); ?></h1>
+				<div class="col-sm-2">
+					<img height="100px" src="<?php echo get_bloginfo( 'template_directory' );?>/favicon.png">
+				</div>
+				<div class="col-sm-6">
+					<h1 class="bte-title"><?php echo get_bloginfo( 'name' ); ?></h1>
+				</div>
 			</div>
 			<div class="container">
 				<nav class="bte-nav">
