@@ -25,9 +25,9 @@
 
 
  		<div class="bte-masthead col-sm-12">
-				<!-- <div class="col-sm-1 col-sm-offset-2">
+				<div class="col-sm-1 col-sm-offset-2">
 					<img height="100px" src="<?php echo get_bloginfo( 'template_directory' );?>/favicon.png">
-				</div>-->
+				</div>
 
 				<div class="col-sm-9">
 					<h1 class="bte-title"><?php echo get_bloginfo( 'name' ); ?></h1>
