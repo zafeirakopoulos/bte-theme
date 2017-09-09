@@ -1,19 +1,8 @@
-<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-	<div class="sidebar-module sidebar-module-inset">
-		<h4>About</h4>
-		<p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-	</div>
-	<div class="sidebar-module">
-		<h4>Archives</h4>
-		<ol class="list-unstyled">
-			<li><a href="#">March 2014</a></li>
-			<!-- More archive examples -->
-		</ol>
-	</div>
+<div class="col-sm-3 col-sm-offset-1">
 	<div class="sidebar-module">
 		<h4>News</h4>
 		<ol class="list-unstyled">
-			<?php wp_get_archives( 'type=monthly' ); ?>
+			<?php wp_get_archives(  ); ?>
 		</ol>
 	</div>
 </div><!-- /.blog-sidebar -->

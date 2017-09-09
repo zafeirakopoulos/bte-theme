@@ -1,7 +1,7 @@
 </div> <!-- /.container -->
 
     <footer class="bte-footer">
-        <div class="row" align="center">
+        <div class="row">
         	<div class="col-sm-2">
                 <img height="100px" src="<?php echo get_bloginfo( 'template_directory' );?>/gtu-white.png">
             </div>
