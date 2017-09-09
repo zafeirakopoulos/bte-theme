@@ -2,10 +2,12 @@
 
     <footer class="bte-footer">
         <div class="row">
-        	<div class="col-sm-2">
+            <div class="col-xs-4"></div>
+
+        	<div class="col-xs-2">
                 <img height="100px" src="<?php echo get_bloginfo( 'template_directory' );?>/gtu-white.png">
             </div>
-    		<div class="col-sm-2">
+    		<div class="col-xs-2">
                 <p>
                     Gebze Technical University <br>
                     Computer Engineering Building <br>
@@ -14,6 +16,8 @@
                     bte {at} gtu.edu.tr
                 </p>
             </div>
+            <div class="col-xs-4"></div>
+
        </div>
 
 
