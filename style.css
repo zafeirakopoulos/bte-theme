@@ -213,7 +213,7 @@ h6, .h6 {
  }
  .navbar-default .navbar-toggle:hover,
  .navbar-default .navbar-toggle:focus {
-   background-color: #404040;
+   background-color: #808080;
  }
  .navbar-default .navbar-toggle .icon-bar {
    background-color: #ffffff;
@@ -240,6 +240,6 @@ h6, .h6 {
    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
      color: #ffffff;
-     background-color: #404040;
+     background-color: #808080;
    }
  }
