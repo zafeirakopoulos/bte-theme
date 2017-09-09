@@ -78,17 +78,17 @@ h6, .h6 {
  * Blog name and description
  */
 
-.blog-header {
+.bte-header {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.blog-title {
+.bte-title {
   margin-top: 30px;
   margin-bottom: 0;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: normal;
 }
-.blog-description {
+.bte-description {
   font-size: 20px;
   color: #999;
 }
@@ -98,7 +98,7 @@ h6, .h6 {
  * Main column and sidebar layout
  */
 
-.blog-main {
+.bte-main {
   font-size: 18px;
   line-height: 1.5;
 }

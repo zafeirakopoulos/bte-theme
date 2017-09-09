@@ -32,7 +32,7 @@
 
 	<div class="container">
 
-		<div class="blog-header">
-			<h1 class="blog-title"><?php echo get_bloginfo( 'name' ); ?></h1>
-			<p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
+		<div class="bte-header">
+			<h1 class="bte-title"><?php echo get_bloginfo( 'name' ); ?></h1>
+			<p class="lead bte-description"><?php echo get_bloginfo( 'description' ); ?></p>
 		</div>
