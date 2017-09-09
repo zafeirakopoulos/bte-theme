@@ -28,7 +28,6 @@
 
 
  		<div class="bte-masthead">
-					<h1 class="bte-title"><?php echo get_bloginfo( 'name' ); ?></h1>
 
 				</div>
 
@@ -36,6 +35,8 @@
 
 									    <!-- Fixed navbar -->
 									    <nav class="navbar navbar-default navbar-fixed-top">
+											<h1 class="bte-title"><?php echo get_bloginfo( 'name' ); ?></h1>
+
 									      <div class="container">
 									        <div class="navbar-header">
 									          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="navbar" aria-expanded="false" aria-controls="navbar">
