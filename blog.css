@@ -167,6 +167,10 @@ h6, .h6 {
  * Menu
  */
 
+ .navbar-default {
+     background-color: #808080;
+     border-color: #808080;
+ }
 
 .bte-nav li {
     position: relative;
