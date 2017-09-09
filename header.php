@@ -30,6 +30,7 @@
  		<div class="bte-masthead">
 					<h1 class="bte-title"><?php echo get_bloginfo( 'name' ); ?></h1>
 
+					<div class="container">
 
 					    <!-- Fixed navbar -->
 					    <nav class="navbar navbar-default navbar-fixed-top">
@@ -69,6 +70,7 @@
 					        </div><!--/.nav-collapse -->
 					      </div>
 					    </nav>
-		</div>
+					</div>
+				</div>
 
 	<div class="container">
