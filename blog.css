@@ -179,3 +179,11 @@ h6, .h6 {
 .bte-nav li a {
     color: #fff;
 }
+
+/*
+ * Row (used in footer)
+ */
+
+.row {
+    text-align: center;
+}
