@@ -29,7 +29,7 @@
 					<img height="100px" src="<?php echo get_bloginfo( 'template_directory' );?>/favicon.png">
 				</div>
 
-				<div class="col-sm-9">
+				<div class="col-sm-7">
 					<h1 class="bte-title"><?php echo get_bloginfo( 'name' ); ?></h1>
 					<div class="container">
 						<nav class="bte-nav">
