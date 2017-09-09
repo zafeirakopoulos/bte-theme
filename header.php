@@ -25,7 +25,7 @@
 <body>
 
 
- 		<div class="bte-masthead container">
+ 		<div class="bte-masthead col-sm-12 container">
 			<br>
 			<h1 class="bte-title"><?php echo get_bloginfo( 'name' ); ?></h1>
 			<nav class="navbar navbar-default">
