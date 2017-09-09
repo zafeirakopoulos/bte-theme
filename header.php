@@ -38,12 +38,12 @@
 	   						   </a>
 	   						 </div>
 				            <div id="navbar" class="navbar-collapse collapse">
-				            	<ul class="navbar navbar-nav">
+				            	<ul class="nav navbar-nav">
 				                	<li><a href="<?php echo get_permalink( get_page_by_path('faculty'))?>">People</a></li>
 								 	<li><a href="<?php echo get_permalink( get_page_by_path('research'))?>">Research</a></li>
 								 	<li><a href="<?php echo get_permalink( get_page_by_path('projects'))?>">Projects</a></li>
 				               	</ul>
-				              	<ul class="navbar navbar-nav navbar-right">
+				              	<ul class="nav navbar-nav navbar-right">
 									<li><a href="<?php echo get_permalink( get_page_by_path('contact'))?>">Contact</a></li>
 				               	</ul>
 				       		</div><!--/.nav-collapse -->
