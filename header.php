@@ -10,7 +10,7 @@
 
 	<title><?php echo get_bloginfo( 'name' ); ?></title>
 
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
 
 	<link href="<?php echo get_bloginfo( 'template_directory' );?>/blog.css" rel="stylesheet">
