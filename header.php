@@ -26,6 +26,7 @@
 
 
  		<div class="bte-masthead">
+		</div>
 
 
 									<div class="container">
@@ -71,6 +72,5 @@
 									      </div>
 									    </nav>
 									</div>
-								</div>
 
 	<div class="container">
