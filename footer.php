@@ -1,10 +1,23 @@
 </div> <!-- /.container -->
 
     <footer class="blog-footer">
-  <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-  <p>
-    <a href="#">Back to top</a>
-  </p>
+        <div class="row">
+
+        		<div class="col-sm-4">
+                     <img height="200px" src="<?php echo get_bloginfo( 'template_directory' );?>/gtu-white.png">
+                </div>
+    		<div class="col-sm-4">
+                <p>
+                    Gebze Technical University <br>
+                    Computer Engineering Building <br>
+                    Gebze – Kocaeli – Turkey <br>
+                    +90 (262) 605 2203 <br>
+                    bte {at} gtu.edu.tr
+                </p>
+            </div>
+       </div>
+
+
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
