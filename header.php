@@ -36,7 +36,7 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			      </button>
-				  <a class="navbar-brand" href="<?php echo get_permalink( get_page_by_path('home'))?>">
+				  <a class="navbar-brand" href="#">
 				      <img height="50px" src="<?php echo get_bloginfo( 'template_directory' );?>/favicon.png">
 				  </a>
 			    </div>

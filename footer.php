@@ -7,6 +7,7 @@
                 <img height="100px" src="<?php echo get_bloginfo( 'template_directory' );?>/gtu-white.png">
             </div>
     		<div class="col-sm-2">
+                <br>
                 <p>
                     Gebze Technical University <br>
                     Computer Engineering Building <br>
