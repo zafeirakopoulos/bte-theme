@@ -26,10 +26,10 @@
 
  		<div class="bte-masthead">
 			<div class="bte-header">
-				<div class="col-sm-2">
+				<div class="col-sm-3">
 					<img height="100px" src="<?php echo get_bloginfo( 'template_directory' );?>/favicon.png">
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-9">
 					<h1 class="bte-title"><?php echo get_bloginfo( 'name' ); ?></h1>
 				</div>
 			</div>
