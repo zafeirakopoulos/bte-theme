@@ -10,7 +10,6 @@
 
 	<title><?php echo get_bloginfo( 'name' ); ?></title>
 
-	<link href="<?php echo get_bloginfo( 'template_directory' );?>/style.css" rel="stylesheet">
 
 
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
