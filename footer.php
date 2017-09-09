@@ -1,12 +1,11 @@
 </div> <!-- /.container -->
 
     <footer class="bte-footer">
-        <div class="row">
-
-        		<div class="col-sm-4">
-                     <img height="100px" src="<?php echo get_bloginfo( 'template_directory' );?>/gtu-white.png">
-                </div>
-    		<div class="col-sm-4">
+        <div class="row" align="center">
+        	<div class="col-sm-2">
+                <img height="100px" src="<?php echo get_bloginfo( 'template_directory' );?>/gtu-white.png">
+            </div>
+    		<div class="col-sm-2">
                 <p>
                     Gebze Technical University <br>
                     Computer Engineering Building <br>
