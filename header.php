@@ -10,6 +10,11 @@
 
 	<title><?php echo get_bloginfo( 'name' ); ?></title>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" rel="stylesheet">
+
+
 	<link href="<?php echo get_bloginfo( 'template_directory' );?>/blog.css" rel="stylesheet">
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 
@@ -25,11 +30,6 @@
 
 
  		<div class="bte-masthead col-sm-12">
-				<div class="col-sm-1 col-sm-offset-2">
-					<img height="100px" src="<?php echo get_bloginfo( 'template_directory' );?>/favicon.png">
-				</div>
-
-				<div class="col-sm-7">
 					<h1 class="bte-title"><?php echo get_bloginfo( 'name' ); ?></h1>
 					<!-- Static navbar -->
 			         <nav class="navbar navbar-default">
@@ -51,8 +51,6 @@
 			             </div><!--/.nav-collapse -->
 			           </div><!--/.container-fluid -->
 			         </nav>
-
-				</div>
 		</div>
 
 	<div class="container">
