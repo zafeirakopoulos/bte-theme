@@ -13,7 +13,7 @@
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
 
-	<link href="<?php echo get_bloginfo( 'template_directory' );?>/blog.css" rel="stylesheet">
+	<link href="<?php echo get_bloginfo( 'template_directory' );?>/style.css" rel="stylesheet">
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
