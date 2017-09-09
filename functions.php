@@ -1,3 +1,4 @@
+<?php
 function theme_styles() {
 
 	wp_enqueue_style( 'bootstrap_css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css' );
@@ -17,3 +18,4 @@ function theme_js() {
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_js');
+?>
