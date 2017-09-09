@@ -1,10 +1,10 @@
 </div> <!-- /.container -->
 
-    <footer class="blog-footer">
+    <footer class="bte-footer">
         <div class="row">
 
         		<div class="col-sm-4">
-                     <img height="200px" src="<?php echo get_bloginfo( 'template_directory' );?>/gtu-white.png">
+                     <img height="100px" src="<?php echo get_bloginfo( 'template_directory' );?>/gtu-white.png">
                 </div>
     		<div class="col-sm-4">
                 <p>
