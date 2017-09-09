@@ -37,8 +37,8 @@
 			             <div id="navbar" class="navbar-collapse collapse">
 			               <ul class="nav navbar-nav">
 			                 <li class="active"><a href="#">Home</a></li>
-			                 <li><a href="#">About</a></li>
-			                 <li><a href="#">Contact</a></li>
+			                 <li><a href="../faculty">Faculty</a></li>
+			                 <li><a href="../research">Research</a></li>
 			               </ul>
 			               <ul class="nav navbar-nav navbar-right">
 			               		<li><a href="../navbar-fixed-top/">Contact</a></li>
