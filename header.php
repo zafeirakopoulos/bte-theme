@@ -20,12 +20,12 @@
 </head>
 
 <body>
-		<div class="bte-header">
-			<h1 class="bte-title"><?php echo get_bloginfo( 'name' ); ?></h1>
-			<p class="lead bte-description"><?php echo get_bloginfo( 'description' ); ?></p>
-		</div>
-		
+
+
  		<div class="bte-masthead">
+			<div class="bte-header">
+				<h1 class="bte-title"><?php echo get_bloginfo( 'name' ); ?></h1>
+			</div>
 			<div class="container">
 				<nav class="bte-nav">
 					<a class="blog-nav-item active" href="#">Home</a>
