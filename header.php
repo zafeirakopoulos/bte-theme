@@ -11,7 +11,6 @@
 	<title><?php echo get_bloginfo( 'name' ); ?></title>
 
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" rel="stylesheet">
 
 
 	<link href="<?php echo get_bloginfo( 'template_directory' );?>/blog.css" rel="stylesheet">
@@ -28,7 +27,7 @@
 <body>
 
 
- 		<div class="bte-masthead col-sm-12">
+ 		<div class="bte-masthead">
 					<h1 class="bte-title"><?php echo get_bloginfo( 'name' ); ?></h1>
 					<!-- Static navbar -->
 			         <nav class="navbar navbar-default">
@@ -38,16 +37,16 @@
 								<img height="100px" src="<?php echo get_bloginfo( 'template_directory' );?>/favicon.png">
 							  </a>
 							</div>
-			             <div id="navbar" class="navbar-collapse collapse">
-			               <ul class="nav navbar-nav">
-			                 <li><a href="<?php echo get_permalink( get_page_by_path('faculty'))?>">People</a></li>
-							 <li><a href="<?php echo get_permalink( get_page_by_path('research'))?>">Research</a></li>
-							 <li><a href="<?php echo get_permalink( get_page_by_path('projects'))?>">Projects</a></li>
-			               </ul>
-			               <ul class="nav navbar-nav navbar-right">
-							   <li><a href="<?php echo get_permalink( get_page_by_path('contact'))?>">Contact</a></li>
-			               </ul>
-			             </div><!--/.nav-collapse -->
+				            <div id="navbar" class="navbar-collapse collapse">
+				            	<ul class="nav navbar-nav">
+				                	<li><a href="<?php echo get_permalink( get_page_by_path('faculty'))?>">People</a></li>
+								 	<li><a href="<?php echo get_permalink( get_page_by_path('research'))?>">Research</a></li>
+								 	<li><a href="<?php echo get_permalink( get_page_by_path('projects'))?>">Projects</a></li>
+				               	</ul>
+				              	<ul class="nav navbar-nav navbar-right">
+									<li><a href="<?php echo get_permalink( get_page_by_path('contact'))?>">Contact</a></li>
+				               	</ul>
+				       		</div><!--/.nav-collapse -->
 			           </div><!--/.container-fluid -->
 			         </nav>
 		</div>
