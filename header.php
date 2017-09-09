@@ -21,7 +21,7 @@
 
 <body>
 
- 		<div class="blog-masthead">
+ 		<div class="bte-masthead">
 			<div class="container">
 				<nav class="bte-nav">
 					<a class="blog-nav-item active" href="#">Home</a>

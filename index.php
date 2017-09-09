@@ -2,7 +2,7 @@
 
 	<div class="row">
 
-		<div class="col-sm-9 bte-main">
+		<div class="col-sm-8 bte-main">
 
 			<?php get_template_part( 'content', get_post_format() ); ?>
 
