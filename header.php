@@ -27,16 +27,16 @@
  		<div class="bte-masthead">
 				<!-- <div class="col-sm-1 col-sm-offset-2">
 					<img height="100px" src="<?php echo get_bloginfo( 'template_directory' );?>/favicon.png">
-				</div>
+				</div>-->
+				
 				<div class="col-sm-9">
-				-->
 					<h1 class="bte-title"><?php echo get_bloginfo( 'name' ); ?></h1>
 					<div class="container">
 						<nav class="bte-nav">
 							<a class="bte-nav-item active" href="#">Home</a><?php wp_list_pages( '&title_li=' ); ?>
 						</nav>
 					</div>
-				<!-- </div> -->
+				</div>
 		</div>
 
 	<div class="container">
