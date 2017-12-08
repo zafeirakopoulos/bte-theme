@@ -12,7 +12,7 @@
 
 
 
-	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
+	<link rel="shortcut icon" href="<?php echo plugin_dir_url( __FILE__ ).'..'; ?>/favicon.ico" />
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -23,10 +23,18 @@
 </head>
 
 <body>
-
+	<?php
+		if(!isset($_SESSION['locale'])) {
+		    $_SESSION['locale']=1;
+		}
+	?>
 
  		<div class="bte-masthead container">
-			<h1 class="bte-title"><?php echo get_bloginfo( 'name' ); ?></h1>
+			<div class="row">
+				<div class="col-sd-2 col-md-2 col-ld-2"><img width="100px" src="<?php echo plugin_dir_url( __FILE__ ).'..';?>/favicon.png"></div>
+				<div class="col-sd-8 col-md-8 col-ld-8"><h1 class="site-title"><?php echo get_bloginfo( 'name' ); ?></h1></div>
+				<div class="col-sd-2 col-md-2 col-ld-2"><img width="100px" src="<?php echo plugin_dir_url( __FILE__ ).'..';?>/favicon.png"></div>
+			</div>
 			<nav class="navbar navbar-default">
 			  <div class="container-fluid">
 			    <div class="navbar-header">
@@ -36,22 +44,21 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			      </button>
-				  <a class="navbar-brand" href="<?php echo site_url();?>">
-				      <img height="50px" src="<?php echo get_bloginfo( 'template_directory' );?>/favicon.png">
-				  </a>
 			    </div>
 			    <div id="navbar" class="navbar-collapse collapse">
 			      <ul class="nav navbar-nav">
 			          <li><a href="<?php echo get_permalink( get_page_by_path('faculty'))?>">People</a></li>
 			          <li><a href="<?php echo get_permalink( get_page_by_path('research'))?>">Research</a></li>
-			          <li><a href="<?php echo get_permalink( get_page_by_path('projects'))?>">Projects</a></li>
+					  <li><a href="<?php echo get_permalink( get_page_by_path('projects'))?>">Projects</a></li>
+					  <li><a href="<?php echo get_permalink( get_page_by_path('publications'))?>">Publications</a></li>
+					  <li><a href="<?php echo get_permalink( get_page_by_path('positions'))?>">Open Positions</a></li>
+					  <li><a href="<?php echo get_permalink( get_page_by_path('contact'))?>">Contact</a></li>
 			      </ul>
 			      <ul class="nav navbar-nav navbar-right">
-			          <li><a href="<?php echo get_permalink( get_page_by_path('contact'))?>">Contact</a></li>
+					  <li><button class="navbar-btn locale-picker " onclick="wpri_change_locale('1')"> English</button></li>
+					  <li><button class="navbar-btn locale-picker " onclick="wpri_change_locale('2')"> Turkish</button></li>
 			      </ul>
 			    </div><!--/.nav-collapse -->
 			  </div><!--/.container-fluid -->
 			</nav>
 		</div>
-
-	<div class="container">

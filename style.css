@@ -1,231 +1,511 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+ :root {
+	 --site-title-font-size : 30px;
+         --main-background-color : #FBB117;
+         --secondary-background-color : white;
+         --alt-background-color : lightgray;
+         --main-color : drakgray;
+         --secondary-color : yellow;
+	 --hr-color:gray;
+	 --hr-font-size: 25px;
+
+         --standard-border: 2px solid gray ;
+         --standard-round-corners :  25px;
+
+         --large-font-size:  25px;
+
+         --listing-thumb-background-color: var(--secondary-background-color);
+         --listing-thumb-color: var(--main-color);
+         --listing-thumb-secondary-color: var(--main-color);
+         --listing-thumb-border: var(--standard-border) ;
+         --listing-thumb-font-size: 15px;
+         --listing-thumb-padding:20px;
+         --listing-thumb-margin-right:5px;
+         --listing-thumb-margin-left:5px;
+         --listing-thumb-margin-bottom:5px;
+         --listing-thumb-margin-top:5px;
+         --listing-thumb-h3-font-size:17px;
+         --listing-thumb-h3-font-size-large:20px;
+         --listing-thumb-font-size:20px;
+         --listing-thumb-increased-font-size:21px;
+
+         --sidebar-background-color : var(--main-background-color,blue);
+         --sidebar-color : var(--main-color);
+         --sidebar-border: var(--standard-border);
+         --sidebar-font-size: 20px;
+         --sidebar-padding:3px;
+         --sidebar-margin-right:0px;
+         --sidebar-margin-left:0px;
+         --sidebar-margin-bottom:10px;
+         --sidebar-margin-top:10px;
+         --sidebar-h3-font-size:17px;
+         --sidebar-h3-font-size-large:20px;
+         --sidebar-p-font-size:15px;
+
+
+         --listing-color: var(--main-color);
+         --listing-font-size: 25px;
+         --listing-border: 0px;
+         --listing-padding:20px;
+         --listing-margin-right:5px;
+         --listing-margin-left:5px;
+         --listing-margin-bottom:10px;
+         --listing-margin-top:10px;
+
+         --h1-page-title-font-size:25px;
+
+         --listing-margin-right:5px;
+         --listing-margin-left:5px;
+         --listing-margin-bottom:5px;
+         --listing-margin-top:5px;
+
+         --single-padding:15px;
+         --single-margin-right:5px;
+         --single-margin-left:5px;
+         --single-margin-bottom:5px;
+         --single-margin-top:5px;
+         --single-border: var(--standard-border);
+         --single-background-color:var(--secondary-background-color);
+         --single-font-size:20px;
+         --single-increased-font-size:21px;
+
+      }
+
+.alt-background{
+    background-color: var(--alt-background-color);
+}
+ /*
+  * Globals
+  */
+
+ body {
+   font-family: Georgia, "Times New Roman", Times, serif;
+   color: var(--main-color);
+ }
+
+ h1, .h1,
+ h2, .h2,
+ h3, .h3,
+ h4, .h4,
+ h5, .h5,
+ h6, .h6 {
+   margin-top: 0;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-weight: normal;
+   color: var(--main-color);
+ }
+
+
+ /*
+  * Override Bootstrap's default container.
+  */
+
+ @media (min-width: 1200px) {
+   .container {
+     width: 970px;
+   }
+ }
+
+
+ /*
+  * Masthead for nav
+  */
+
+ .bte-masthead {
+   background-color: var(--main-background-color);
+   -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+           box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+   text-align: center;
+   width: 100%;
+ }
+
+ /* Nav links */
+ .bte-nav-item {
+   position: relative;
+   display: inline-block;
+   padding: 10px;
+   font-weight: 500;
+  }
+ .bte-nav-item:hover,
+ .bte-nav-item:focus {
+   color: var(--secondary-color);
+   text-decoration: none;
+ }
+
+
+
+
+ /*
+  * BTE name and description
+  */
+
+ .bte-header {
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+ .bte-title {
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 0;
+   font-size: 40px;
+   font-weight: normal;
+ }
+
+
+
+ /* Pagination */
+ .pager {
+   margin-bottom: 60px;
+   text-align: left;
+ }
+ .pager > li > a {
+   width: 140px;
+   padding: 10px 20px;
+   text-align: center;
+   border-radius: 30px;
+ }
+
+
+ /*
+  * Blog posts
+  */
+
+ .blog-post {
+   margin-bottom: 60px;
+ }
+ .blog-post-title {
+   margin-bottom: 5px;
+   font-size: 40px;
+ }
+ .blog-post-meta {
+   margin-bottom: 20px;
+   color: #999;
+ }
+
+
+ /*
+  * Footer
+  */
+
+ .bte-footer {
+   padding: 40px 0;
+   color: var(--main-color);
+   text-align: center;
+   background-color: var(--main-background-color);
+ }
+
+footer.bte-footer{
+    border-top: 1px solid #e5e5e5;
+}
+
+ .bte-footer p:last-child {
+   margin-bottom: 0;
+ }
+ p.bte-footer {
+   color: var(--main-color);
+   font-size:15px;
+ }
+ /*
+  * Menu
+  */
+  .navbar-default {
+    background-color: var(--main-background-color);
+    border: 0px;
+  }
+  .navbar-default .navbar-brand {
+    color: var(--main-color);
+  }
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:focus {
+    color: var(--main-color);
+  }
+  .navbar-default .navbar-text {
+    color: var(--main-color);
+  }
+  .navbar-default .navbar-nav > li > a {
+    color: var(--main-color);
+    font-size: 25px;
+  }
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus {
+    color: var(--main-color);
+  }
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a:focus {
+    color: var(--main-color);
+    background-color: var(--main-background-color);
+  }
+  .navbar-default .navbar-nav > .open > a,
+  .navbar-default .navbar-nav > .open > a:hover,
+  .navbar-default .navbar-nav > .open > a:focus {
+    color: var(--main-color);
+    background-color: var(--main-background-color);
+
+  }
+  .navbar-default .navbar-toggle {
+  }
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: var(--main-background-color);
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: var(--main-color);
+  }
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+  }
+  .navbar-default .navbar-link {
+    color: var(--main-color);
+  }
+  .navbar-default .navbar-link:hover {
+    color: var(--main-color);
+  }
+
+  @media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+      color: var(--main-color);
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+      color: var(--main-color);
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+      color: var(--main-color);
+      background-color: var(--main-background-color);
+    }
+  }
+
+
 /*
-Theme Name: BTE theme
-Author: Zafeirakis Zafeirakopoulos
-Description: BTE theme for WordPress
-Version: 0.0.1
-Tags:
+* Sidebar
 */
 
-
-/*
- * Globals
- */
-
-body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #555;
+.wpri-sidebar {
+  color: var(--sidebar-color);
+  font-size: var(--sidebar-font-size,15px);
+  padding: var(--sidebar-padding,5px);
+  margin-right: var(--small-margin-right,5px);
+  margin-left: var(--small-margin-left,5px);
+  margin-bottom:var(--small-margin-bottom,10px);
+  margin-top:var(--small-margin-top,10px);
+  height : 100%;
 }
 
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6 {
-  margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  color: #fff;
+h1.wpri-sidebar{
+    font-size: var(--large-font-size,25px);
+}
+.wpri-sidebar-frame {
+  background-color: var(--sidebar-background-color);
+  margin-right: var(--listing-margin-right,5px);
+  margin-left: var(--listing-margin-left,5px);
+  margin-bottom:var(--listing-margin-bottom,10px);
+  margin-top:var(--listing-margin-top,10px);
+  border : var(--sidebar-border);
+  border-radius: var(--standard-round-corners);
 }
 
-
-/*
- * Override Bootstrap's default container.
- */
-
-@media (min-width: 1200px) {
-  .container {
-    width: 970px;
+@media only screen and (min-width: 1024px) {
+  /* define mobile specific styles come here */
+  .wpri-sidebar-frame {
+    position:fixed;
+    width :22%;
   }
 }
 
+ /*
+  * listing
+  */
 
-/*
- * Masthead for nav
- */
+  .listing {
+    color: var(--listing-color);
+    border: var(--listing-border);
+    font-size: var(--listing-font-size,15px);
+	padding: var(--listing-padding,20px);
+	margin-right: var(--listing-margin-right,5px);
+	margin-left: var(--listing-margin-left,5px);
+	margin-bottom:var(--listing-margin-bottom,10px);
+	margin-top:var(--listing-margin-top,10px);
+  }
 
-.bte-masthead {
-  background-color: #808080;
-  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-  text-align: center;
-  width: 100%;
-}
+  .listing-thumb {
+    background-color: var(--listing-thumb-background-color);
+    color: var(--listing-thumb-color);
+  }
 
-/* Nav links */
-.bte-nav-item {
-  position: relative;
-  display: inline-block;
-  padding: 10px;
-  font-weight: 500;
+  div.listing-thumb{
+    background-color: var(--listing-thumb-background-color);
+    padding: var(--listing-thumb-padding,20px);
+    font-size: var(--listing-thumb-font-size,15px);
+  }
+  div.listing-thumb-frame{
+    border : var(--listing-thumb-border);
+    padding: var(--listing-thumb-padding,20px);
+    background-color: var(--listing-thumb-background-color);
+	margin-right: var(--listing-margin-right,5px);
+	margin-left: var(--listing-margin-left,5px);
+	margin-bottom:var(--listing-margin-bottom,10px);
+	margin-top:var(--listing-margin-top,10px);
+    border-radius: var(--standard-round-corners);
+  }
+h3.listing-thumb{
+    font-size: var(--listing-thumb-h3-font-size,15px);
  }
-.bte-nav-item:hover,
-.bte-nav-item:focus {
-  color: #fff;
-  text-decoration: none;
-}
+p.listing-thumb{
+    font-size: var(--listing-thumb-font-size,15px);
+ }
 
-
-
-
-/*
- * BTE name and description
- */
-
-.bte-header {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.bte-title {
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-size: 40px;
-  font-weight: normal;
-}
-
-
-
-/*
- * Main column and sidebar layout
- */
-
-.bte-main {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-/* Sidebar modules for boxing content */
-.sidebar-module {
-  padding: 15px;
-  margin: 0 -15px 15px;
-}
-.sidebar-module-inset {
-  padding: 15px;
-  background-color: #f5f5f5;
-  border-radius: 4px;
-}
-.sidebar-module-inset p:last-child,
-.sidebar-module-inset ul:last-child,
-.sidebar-module-inset ol:last-child {
-  margin-bottom: 0;
-}
-
-
-/* Pagination */
-.pager {
-  margin-bottom: 60px;
-  text-align: left;
-}
-.pager > li > a {
-  width: 140px;
-  padding: 10px 20px;
-  text-align: center;
-  border-radius: 30px;
-}
-
-
-/*
- * Blog posts
- */
-
-.blog-post {
-  margin-bottom: 60px;
-}
-.blog-post-title {
-  margin-bottom: 5px;
-  font-size: 40px;
-}
-.blog-post-meta {
-  margin-bottom: 20px;
-  color: #999;
-}
-
-
-/*
- * Footer
- */
-
-.bte-footer {
-  padding: 40px 0;
-  color: #999;
-  text-align: center;
-  background-color: #808080;
-  border-top: 1px solid #e5e5e5;
-}
-.bte-footer p:last-child {
-  margin-bottom: 0;
+a.listing-thumb{
+    color: var(--listing-thumb-color);
+    font-size: var(--listing-thumb-font-size,15px);
+ }
+a.listing-thumb:hover{
+    color: var(--listing-thumb-color);
+    font-size: var(--listing-thumb-increased-font-size,17px);
 }
 
 /*
- * Menu
- */
- .navbar-default {
-   background-color: #808080;
-   border: 0;
- }
- .navbar-default .navbar-brand {
-   color: #ffffff;
- }
- .navbar-default .navbar-brand:hover,
- .navbar-default .navbar-brand:focus {
-   color: #ffffff;
- }
- .navbar-default .navbar-text {
-   color: #ffffff;
- }
- .navbar-default .navbar-nav > li > a {
-   color: #ffffff;
-   font-size: 25px;
- }
- .navbar-default .navbar-nav > li > a:hover,
- .navbar-default .navbar-nav > li > a:focus {
-   color: #ffffff;
- }
- .navbar-default .navbar-nav > .active > a,
- .navbar-default .navbar-nav > .active > a:hover,
- .navbar-default .navbar-nav > .active > a:focus {
-   color: #ffffff;
-   background-color: #404040;
- }
- .navbar-default .navbar-nav > .open > a,
- .navbar-default .navbar-nav > .open > a:hover,
- .navbar-default .navbar-nav > .open > a:focus {
-   color: #ffffff;
-   background-color: #404040;
+* Single item page
+*/
 
- }
- .navbar-default .navbar-toggle {
- }
- .navbar-default .navbar-toggle:hover,
- .navbar-default .navbar-toggle:focus {
-   background-color: #404040;
- }
- .navbar-default .navbar-toggle .icon-bar {
-   background-color: #ffffff;
- }
- .navbar-default .navbar-collapse,
- .navbar-default .navbar-form {
- }
- .navbar-default .navbar-link {
-   color: #ffffff;
- }
- .navbar-default .navbar-link:hover {
-   color: #ffffff;
- }
+.single {
+  background-color: var(--secondary-background-color);
+  color: var(--main-color);
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom:0;
+  margin-top:0;
+}
 
- @media (max-width: 767px) {
-   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-     color: #ffffff;
-   }
-   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-     color: #ffffff;
-   }
-   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-     color: #ffffff;
-     background-color: #404040;
-   }
+div.single {
+  padding: var(--single-padding,20px);
+  font-size: var(--single-font-size,15px);
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom:0;
+  margin-top:0;
+
+}
+
+div.single-frame{
+  border : var(--single-border);
+  padding: var(--single-padding,20px);
+  background-color: var(--single-background-color);
+  margin-right: var(--single-margin-right,5px);
+  margin-left: var(--single-margin-left,5px);
+  margin-bottom:var(--single-margin-bottom,10px);
+  margin-top:var(--single-margin-top,10px);
+  border-radius: var(--standard-round-corners);
+}
+
+h2,h3,h4.single{
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom:0;
+    margin-top:0;
+}
+h1.single{
+	color: var(--hr-color);
+	font-size: 32px;
+}
+h2.single{
+
+	font-size: var(--hr-font-size);
+	color: var(--hr-color);
+	text-align:center;
+}
+a.single{
+    color: var(--single-color);
+    font-size: var(--single-font-size,20px);
  }
+a.single:hover{
+    color: var(--single-color);
+    font-size: var(--single-increased-font-size,21px);
+}
+
+
+
+
+
+.locale-picker {
+    background-color: var(--main-background-color);
+    color: var(--main-color);
+    border : 0px;
+    font-size: 15px;
+}
+
+button.locale-picker:hover{
+    background-color: var(--main-background-color);
+    color: var(--main-color);
+    border : 0px;
+    font-size: 15px;
+}
+
+
+.wordwrap {
+   white-space: pre-wrap;      /* Webkit */
+   white-space: -moz-pre-wrap; /* Firefox */
+   white-space: -pre-wrap;     /* Opera <7 */
+   white-space: -o-pre-wrap;   /* Opera 7 */
+   word-wrap: break-word;      /* IE */
+}
+
+.main-content-container{
+    width: 100%;
+}
+
+h1.site-title{
+    font-size: var(--site-title-font-size,30px);
+    margin-top: 30px;
+}
+
+/*
+* Divider
+*/
+
+.divider {
+	font-size: var(--hr-font-size);
+	color: var(--hr-color);
+	text-align:center;
+}
+
+.divider hr {
+	margin-left:auto;
+	margin-right:auto;
+	width:30%;
+
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+
+/*
+* Garbage
+*/
+
+#logo {
+  background: url(images/logo.png);
+  width: 650px;
+  border: 1px #ccc solid;
+}
+
+@media only screen and (max-device-width: 480px) {
+  /* define mobile specific styles come here */
+  #logo {
+    background: url(images/logo_mobile.png);
+    width: 400px;
+  }
+}
